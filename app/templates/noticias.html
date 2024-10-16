@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Noticias{% endblock %}
+
+{% block content %}
+<section class="noticias">
+    <h2>Últimas Noticias</h2>
+    
+    <article class="noticia">
+        <img src="{{ url_for('static', filename='img/servicios3.png') }}" alt="Nueva Línea de Laptops" width="300" height="auto">
+        <h3>Nueva Línea de Laptops 2024</h3>
+        <p>MAC.TECNOLOGY Esta laptop gamer valorizada en 21 mil soles cuenta con un procesador Intel Core i9  
+            y una tarjeta gráfica GeForce RTX 4090 para hacerle frente a los videojuegos más exigentes.</p>
+    </article>
+</section>
+{% endblock %}
+

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Servicios{% endblock %}
+
+{% block content %}
+<section class="servicios">
+    <h2>Nuestros Servicios</h2>
+    
+    <div class="servicio">
+        <img src="{{ url_for('static', filename='img/servicios1.png') }}" alt="Importación de Laptops" width="300" height="auto">
+        <p>Importación y distribución de laptops de las mejores marcas.</p>
+    </div>
+    
+    <div class="servicio">
+        <img src="{{ url_for('static', filename='img/servicios2.png') }}" alt="Soporte Técnico" width="300" height="auto">
+        <p>Servicio técnico especializado para equipos portátiles.</p>
+    </div>
+</section>
+{% endblock %}

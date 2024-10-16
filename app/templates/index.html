@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h1>Bienvenido a MAC.TECNOLOGY</h1>
+    <p>Importadora líder de laptops y soluciones tecnológicas.</p>
+    <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logotipo de MAC.TECNOLOGY" width="300" height="auto">
+</section>
+
+<section class="testimonios">
+    <h2>Lo que nuestros clientes dicen</h2>
+    <p>"Increíble calidad y servicio, MAC.TECNOLOGY es mi proveedor de confianza." - Juan Pérez</p>
+    <p>"Gran variedad de laptops, todas con garantía de calidad." - Ana Torres</p>
+</section>
+
+<section class="redes-sociales">
+    <h3>Síguenos en redes sociales:</h3>
+    <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+</section>
+{% endblock %}
